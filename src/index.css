@@ -26,3 +26,9 @@ code {
 .box-card {
   margin-left: 20px;
 }
+.greetings{
+  border: 1px solid black;
+  padding: 2px;
+  margin: 2rem 0.5rem;
+  text-align: left;
+}
