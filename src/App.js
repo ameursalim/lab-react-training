@@ -6,7 +6,8 @@ import Greetings from './components/Greetings';
 import Rondom from './components/Rondom';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
-import LikeButton from './components/LikeButton'
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture'
 
 
 
@@ -79,6 +80,12 @@ function App() {
                   <h1>Like Button</h1>
       <LikeButton /> 
       <LikeButton />
+
+      <h1>Clickable Picture</h1>
+      <ClickablePicture
+      img='/img/persons/maxence.png'
+      imgClicked='/img/persons/maxence-glasses.png'
+      />
 
 
     </div>
