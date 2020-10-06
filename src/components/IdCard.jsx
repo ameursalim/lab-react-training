@@ -12,7 +12,7 @@ const IdCard = (props) => {
         <p>First Name: <b>{props.firstName}</b></p>
         <p>Gender: <b>{props.gender}</b></p>
         <p>Height: <b>{props.height}</b></p>
-        <p>Birth: <b>{props.birth.toLocaleDateString(options)}</b></p>
+        <p>Birth: <b>{props.birth.toDateString(options)}</b></p>
        
       </div>
     </div>
