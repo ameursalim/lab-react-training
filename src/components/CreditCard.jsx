@@ -7,10 +7,10 @@ const CreditCard = (props) => {
 
     switch(props.type){
         case 'Visa':
-            cardPic = '.public/img/visa.png';
+            cardPic = './img/visa.png';
             break;
         case 'Master Card':
-            cardPic = '.public/img/master-card.svg';
+            cardPic = './img/master-card.svg';
         break;
         default:
         cardPic = '.public/img/visa.png';
@@ -21,10 +21,10 @@ const CreditCard = (props) => {
     return (
         <div className="container">
               <div className= 'creditCards'>
-              
+
                 <div className='cardContainer' style={{backgroundColor:props.bgColor}}>
                     <div className='cardLogo'>
-                        <img src={cardPic} alt='card logo'></img>
+                        <img className="pic"src={cardPic} alt='card logo'></img>
                     </div>
                     <div className='cardNumber'>
                         <h2 style={{color:props.color}}>•••• •••• •••• {props.number.slice(-4)}</h2>

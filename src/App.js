@@ -7,8 +7,8 @@ import Rondom from './components/Rondom';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import LikeButton from './components/LikeButton';
-import ClickablePicture from './components/ClickablePicture'
-
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice'
 
 
 function App() {
@@ -87,6 +87,7 @@ function App() {
       imgClicked='/img/persons/maxence-glasses.png'
       />
 
+      <Dice />
 
     </div>
   );

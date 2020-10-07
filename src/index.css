@@ -51,10 +51,19 @@ code {
 
 }
 .container{
+ 
+width: 50%;
+border-radius: 25px;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
  
   
+}
+.pic{
+  margin-top: 20px;
+  width: 50px;
+
+
+
+
+ 
 }
